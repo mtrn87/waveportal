@@ -1,15 +1,15 @@
-# Basic Sample Hardhat Project
+# WavePortal 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This is a Web3 App built with Solidity and Ethereum smart contracts. Users can connect their wallet and send a message that is saved to the blockchain. 
 
-Try running some of the following tasks:
+Thanks to W3DEV community! (https://pt.w3d.community/)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Deployed contract: https://sepolia.etherscan.io/address/0x63b1f15235a64d608ee3eca6b1daee32f447bbfc
+
+## Technology
+
+* [Hardhat](https://hardhat.org/) - Ethereum development environment
+* [Solidity](https://hardhat.org/) - Object-oriented, high-level language for implementing smart contracts on Ethereum
+* [Ethers](https://github.com/ethers-io/ethers.js) - Ethereum wallet implementation and utilities in JS
+* [Alchemy](https://www.alchemy.com/) - Broadcasts contract creation transaction to miners to add to the blockchain
+
